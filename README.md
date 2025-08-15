@@ -1,9 +1,11 @@
-# Magento Chrome Toolbar for MSP DevTools
+# Magento Chrome Toolbar for MSP DevTools 2025 (Manifest v3)
 
 **Magento Chrome Toolbar** is a chrome extension to be used with **MSP_DevTools** for **Magento 1** or **Magento 2**.
 
 This extension allows you to **quickly access** the information you need to debug your Magento performances,
 to build your new theme or to modify an existing one.
+
+**The compatibility has been extended by [David Abad](https://dabad.es). Now you can use it with modern Chrome browser versions.**
 
 ## How can I install it?
 Just install from **[Chrome WebStore][1]**.
