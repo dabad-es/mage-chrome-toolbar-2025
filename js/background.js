@@ -52,9 +52,9 @@ chrome.runtime.onConnect.addListener(function (port) {
         console.log("Icon: " + msg.payload);
 
         if (msg.payload === 'online') {
-          chrome.browserAction.setIcon({path: "images/icon.png", tabId: msg.tabId});
+          chrome.action.setIcon({path: "images/icon.png", tabId: msg.tabId});
         } else {
-          chrome.browserAction.setIcon({path: "images/icon_off.png", tabId: msg.tabId});
+          chrome.action.setIcon({path: "images/icon_off.png", tabId: msg.tabId});
         }
       }
 
